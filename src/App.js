@@ -14,8 +14,8 @@ export default function App() {
             <img src="assets/img/profile-img.png" alt="" class="img-fluid rounded-circle" />
             <h1 class="text-light"><a href="index.html">Alejandro Flores</a></h1>
             <div class="social-links mt-3 text-center">
-              <a href="https://www.linkedin.com/in/alejandro-flores-dev/" target="_blank" rel="noreferrer" class="gtihub"><i class="bx bxl-github"></i></a>
-              <a href="https://github.com/afl0r3s" target="_blank" rel="noreferrer" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/alejandro-flores-dev/" target="_blank" rel="noreferrer" class="gtihub"><i class="bx bxl-linkedin"></i></a>
+              <a href="https://github.com/afl0r3s" target="_blank" rel="noreferrer" class="linkedin"><i class="bx bxl-github"></i></a>
               <a href="mailto:sjafs.83@gmail.com" target="_blank" rel="noreferrer" class="mail"><i class="bx bx-envelope"></i></a>
             </div>
           </div>
