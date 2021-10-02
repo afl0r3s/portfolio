@@ -11,11 +11,11 @@ export default function App() {
       <header id="header">
         <div class="d-flex flex-column">
           <div class="profile">
-            <img src="assets/img/profile-img.png" alt="" class="img-fluid rounded-circle" />
+            <img src="./portfolio/assets/img/profile-img.png" alt="" class="img-fluid rounded-circle" />
             <h1 class="text-light"><a href="index.html">Alejandro Flores</a></h1>
             <div class="social-links mt-3 text-center">
               <a href="https://www.linkedin.com/in/alejandro-flores-dev/" target="_blank" rel="noreferrer" class="gtihub"><i class="bx bxl-linkedin"></i></a>
-              <a href="https://github.com/afl0r3s" target="_blank" rel="noreferrer" class="linkedin"><i class="bx bxl-github"></i></a>
+              <a href="https://github.com/afl0r3s" target="_blank" rel="noreferrer" class="linkedin"><i class="bx bxl-linkedin"></i></a>
               <a href="mailto:sjafs.83@gmail.com" target="_blank" rel="noreferrer" class="mail"><i class="bx bx-envelope"></i></a>
             </div>
           </div>
@@ -24,10 +24,8 @@ export default function App() {
             <ul>
               <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
               <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-              <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-              <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-              <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
-              <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+              <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Proyects</span></a></li>
+              <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>My CV</span></a></li>
             </ul>
           </nav>
         </div>
@@ -35,8 +33,8 @@ export default function App() {
       {/*FIN componente del menu Side */}
 
    <section id="hero" className="heroContent">
-    <h1>I am: Alejandro Flores</h1>
-    <p>This is my Portfolio..</p>
+    <h1> Alejandro Flores<br/>Portfolio</h1>
+    <p>I am: Full Stack Developer.</p>
    </section> 
 
       <main id="main">
@@ -70,12 +68,36 @@ export default function App() {
           </p>
         </div>
 
+      </div>
+    </section>
 
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Here some projects i made.. </p>
+        </div>
+
+     
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="./portfolio/assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""/>
+              <div class="portfolio-links">
+                <a href="./portfolio/assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+    
+
+
+  
 
       </div>
     </section>
 
-        
+    
       </main>
     </div>
   )
