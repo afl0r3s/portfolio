@@ -111,6 +111,21 @@ body{
     color: brown;
 }
 
+.navLink2{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-size: 25px;
+}
+
+.navLink2 :hover{
+    color: rgb(86, 208, 212);
+}
+
 /* Fin estilos del Side Menu */
 
 

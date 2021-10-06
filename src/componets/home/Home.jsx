@@ -17,6 +17,8 @@ export default function Home() {
 						<li><span>and More...</span></li>
 					</ul>
 				</div>
+				<a href="#contact" className={style.navLink2}><box-icon name='envelope' type='solid' color='white' /><span>&nbsp;Contact Me</span></a>
+				<a href="https://www.dropbox.com/s/djokt3peaxxf5it/Alejandro-Flores-CV.pdf?dl=0" className={style.navLink2} target="_blank" rel="noreferrer"><box-icon name='file-pdf' type='solid' color='white' /><span>&nbsp;View my CV</span></a>
 			</div>
 		</section>
 	);

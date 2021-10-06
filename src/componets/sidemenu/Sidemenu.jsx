@@ -25,6 +25,7 @@ export default function Sidemenu() {
               <li><a href="#about" className={style.navLink}><box-icon name='user' type='solid' color='white'/><span>About</span></a></li>
               <li><a href="#projects" className={style.navLink}><box-icon name='book-content' type='solid' color='white' /><span>Projects</span></a></li>
               <li><a href="#contact" className={style.navLink}><box-icon name='envelope' type='solid' color='white' /><span>Contact Me</span></a></li>
+              <li><a href="https://www.dropbox.com/s/djokt3peaxxf5it/Alejandro-Flores-CV.pdf?dl=0" className={style.navLink} target="_blank" rel="noreferrer"><box-icon name='file-pdf' type='solid' color='white' /><span>View my CV</span></a></li>
             </ul>
           </nav>
         </div>
