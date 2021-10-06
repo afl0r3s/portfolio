@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import style from '../Styles.module.css';
-import {url1} from '../../const.js';
 import 'boxicons';
 
 export default function Sidemenu() {
@@ -15,7 +13,7 @@ export default function Sidemenu() {
 
 			<header className={menuState ? `${style.header}` : `${style.header2}` } >
         <div className={style.profile}>
-          <img src={`.${url1}/assets/img/profile-img.png`} alt="mi_foto" />
+          <img src='https://res.cloudinary.com/afl0r3s/image/upload/v1633487385/test/profile-img_jewkey.png' alt="mi_foto" />
           <h1>Alejandro Flores</h1>
           <div className={style.socialLinks}>
             <a href="https://www.linkedin.com/in/alejandro-flores-dev/" target="_blank" rel="noreferrer"> <box-icon type='logo' name='linkedin' color='white' /> </a>
