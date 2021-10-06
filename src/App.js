@@ -3,6 +3,8 @@ import './App.css';
 import Sidemenu from './componets/sidemenu/Sidemenu';
 import Home from './componets/home/Home';
 import About from './componets/about/About';
+import Contact from './componets/contact/Contact';
+import Projects from './componets/projects/Projects';
 //import style from './componets/Styles.module.css';
 //import Navbar from './componets/navbar/Navbar'
 
@@ -13,8 +15,8 @@ export default function App() {
 			<Sidemenu />
 			<Home />
 			<About />
-
-
+			<Contact />
+			<Projects />
 		</div>
 	);
 }

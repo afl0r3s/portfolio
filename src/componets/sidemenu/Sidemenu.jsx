@@ -24,7 +24,7 @@ export default function Sidemenu() {
               <li><a href="#hero" className={style.navLink}><box-icon name='home' type='solid' color='white'/><span>Home</span></a></li>
               <li><a href="#about" className={style.navLink}><box-icon name='user' type='solid' color='white'/><span>About</span></a></li>
               <li><a href="#projects" className={style.navLink}><box-icon name='book-content' type='solid' color='white' /><span>Projects</span></a></li>
-              <li><a href to="#contact" className={style.navLink}><box-icon name='envelope' type='solid' color='white' /><span>Contact Me</span></a></li>
+              <li><a href="#contact" className={style.navLink}><box-icon name='envelope' type='solid' color='white' /><span>Contact Me</span></a></li>
             </ul>
           </nav>
         </div>

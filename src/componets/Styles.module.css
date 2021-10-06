@@ -223,3 +223,83 @@ body{
 .aboutTexto{
     text-align: justify;
 }
+/* Fin Estilos de la pagina inicial "About" */
+
+
+/* Estilos de la pagina inicial "Projects" */
+
+.project{
+    height: 100vh;
+    background-color:white;
+    background-size: cover;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 350px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.project h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-bottom: 5px solid #173b6c;
+    padding-bottom: 10px;
+    position: relative;
+    color: #173b6c;
+    display: inline-flex;
+}
+
+.projecttTexto{
+    text-align: justify;
+}
+.project a{
+    text-decoration: none;
+    font-weight: bold;
+    color:firebrick;
+    display: flex;
+    align-items: center;
+}
+
+.cardContainer{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: auto;
+}
+/* Fin Estilos de la pagina inicial "About" */
+
+
+/* Estilos de la pagina inicial "Contact" */
+
+.contact{
+    height: 100vh;
+    background-color:white;
+    background-size: cover;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 350px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.contact h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-bottom: 5px solid #173b6c;
+    padding-bottom: 10px;
+    position: relative;
+    color: #173b6c;
+    display: inline-flex;
+}
+
+.contact a{
+    text-decoration: none;
+    font-weight: bold;
+    color:firebrick;
+    display: flex;
+    align-items: center;
+}
+/* Fin Estilos de la pagina inicial "About" */
