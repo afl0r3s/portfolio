@@ -1,4 +1,8 @@
 /* Estilos del Side Menu */
+body{
+    font-family: "Poppins", sans-serif;
+}
+
 .menu{
     position: fixed;
     margin-top: 10px;
@@ -45,7 +49,6 @@
     font-weight: 600;
     -moz-text-align-last: center;
     text-align-last: center;
-    font-family: "Poppins", sans-serif;
     color: white;
 }
 
@@ -91,7 +94,6 @@
 
 .navMenu span{
     margin-left: 10px;
-    font-family: "Poppins", sans-serif;
 }
 
 .navLink{
@@ -118,8 +120,7 @@
     height: 100vh;
     background: url(../fondo.jpg) top center;
     background-size: cover;
-    color: white;
-    font-family: "Poppins", sans-serif;
+    color: white;   
 
     display: flex;
     justify-content: center;
@@ -141,13 +142,16 @@
     color: white;
     font-size: 1.8rem;
     display: inline;
-    margin-top: 30px;
+    margin-top: 16px;
+    margin-bottom: 16px;
     margin-left: 0px;
-    position: fixed;
+    padding: 13px 15px 0px 10px;
+    background-color: black;
+    border-radius: 5px;
 }
 .wrapper .dynamicTxt{
     margin-left: -10px;
-    padding: 5px 10px 10px 55px;
+    padding: 5px 10px 10px 15px;
     height: 40px;
     line-height: 50px;
     overflow: hidden;
@@ -192,13 +196,30 @@
 /* Fin Estilos de la pagina inicial "Home" */
 
 
+/* Estilos de la pagina inicial "About" */
 .about{
     height: 100vh;
-   /*  background: url(../img/hero-bg.jpg) top center; */
+    background-color:white;
     background-size: cover;
 
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     margin-left: 350px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.about h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-bottom: 5px solid #173b6c;
+    padding-bottom: 10px;
+    position: relative;
+    color: #173b6c;
+    display: inline-flex;
+}
+
+.aboutTexto{
+    text-align: justify;
 }
